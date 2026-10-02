@@ -1,0 +1,4 @@
+PyQt6
+python-docx
+# Optional, Windows only: Microsoft Word automation as a fallback converter for legacy .doc files
+# pywin32

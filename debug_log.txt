@@ -1,0 +1,36 @@
+2026-10-02T12:15:44: Table 0: header=emg examination date :  date of report:  patient:  address street: 
+2026-10-02T12:15:44: Table 1: header=motor nerves stim - rec lat
+[ms] amp
+[mv] cv
+[m/s] amp %
+[%] dist
+[mm] peroneus-destra ankle - edb
+below knee - edb 4,4
+10,9 4,6
+4,3 --
+44 --
+-6,5 --
+330
+2026-10-02T12:15:44: --- Avvio parsing _parse_motor_table ---
+2026-10-02T12:15:44: Headers Grezzi Motor: ['Motor Nerves', 'Stim - Rec', 'Lat [ms]', 'Amp [mV]', 'CV [m/s]', 'Amp % [%]', 'Dist [mm]']
+2026-10-02T12:15:44: Colonne Motor: name=0, amp=3, cv=4, dml=2
+2026-10-02T12:15:44: Estrazione Motor completata. 4 righe trovate.
+2026-10-02T12:15:44: Table 2: header=sensory nerves stim - rec lat
+[ms] amp
+[µv] cv
+[m/s] dist
+[mm] peroneus superficialis-destra foreleg - ankle 2,8 6,8 48 135
+2026-10-02T12:15:44: --- Avvio parsing _parse_sensory_table ---
+2026-10-02T12:15:44: Headers Grezzi Sensory: ['Sensory Nerves', 'Stim - Rec', 'Lat [ms]', 'Amp [µV]', 'CV [m/s]', 'Dist [mm]']
+2026-10-02T12:15:44: Colonne Sensory: name=0, amp=3, cv=4, dml=2
+2026-10-02T12:15:44: Estrazione Sensory completata. 4 righe trovate.
+2026-10-02T12:15:44: Table 3: header=f-wave nerves m-latency
+[ms] m-amplitude
+[mv] fmin
+[ms] f-m
+[ms] f / m
+[%] peroneus-destra 4,4 4,6 49,8 45,4 70,0
+2026-10-02T12:15:44: --- Avvio parsing _parse_fwave_table ---
+2026-10-02T12:15:44: Headers Grezzi F-Wave: ['F-Wave Nerves', 'M-Latency [ms]', 'M-Amplitude [mV]', 'Fmin [ms]', 'F-M [ms]', 'F / M [%]']
+2026-10-02T12:15:44: Colonne F-Wave: name=0, mamp=2, fmin=3, persist=5
+2026-10-02T12:15:44: Estrazione F-Wave completata. 4 righe trovate.
